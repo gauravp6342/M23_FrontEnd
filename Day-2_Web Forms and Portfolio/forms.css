@@ -1,0 +1,14 @@
+h1::first-letter{
+    color: rgb(80, 255, 343);
+    background-color: darkolivegreen;
+    border: 4 outset navy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+label.aaru{
+    font-size: 20px;
+    text-decoration: underline;
+    color: crimson;
+    display: inline;
+    text-shadow: 4px 4px lightcoral;
+}

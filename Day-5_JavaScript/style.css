@@ -1,0 +1,92 @@
+h1
+{
+  color: rgb(175, 29, 15);
+  font-size: 2.0em;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+    font-size: 1.4em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin-bottom: 15em;
+}
+  ul {
+    list-style: none;
+  }
+
+  ul li {
+    padding: 5px;
+    background: lightgray;
+    margin: 5px 0;
+    margin-bottom: 0.2em;
+  }
+
+  header {
+    background: lightgray;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .container {
+    margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 3rem 2rem;
+  }
+
+  #my-form {
+    padding: 2rem;
+    background: lightgray;
+  }
+
+  #my-form label {
+    display: block;
+  }
+
+  #my-form input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 11px;
+    border-radius: 6px;
+    border: 1px solid rgb(165, 97, 97);
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px 16px;
+    border: 0;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    margin: 6px 0;
+    font-size: 1.0em;
+  }
+
+  .btn:hover {
+    background: rgb(106, 104, 104);
+  }
+
+  .bg-dark {
+    background: rgb(141, 117, 214);
+    color: rgb(76, 194, 201);   
+  }
+
+  .error {
+    background: rgb(203, 72, 62);
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+  }

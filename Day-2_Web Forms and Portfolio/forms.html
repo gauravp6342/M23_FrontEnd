@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Forms</title>
+        <link rel="stylesheet" href="forms.css">
+        <body>
+            <h1>T20 World Cup Registration</h1>
+            <form>
+                <div>
+                    <label  class="aaru" for="user-id">User ID:</label>
+                    <input type="text" id="user-id" required> 
+                    <br>
+                    <br>
+                    <label for="password">Password:</label> 
+                    <input type="password" id="password" required>
+                    <br>
+                    <p>Select the Seat Type</p>
+                    <input type="radio" name="seat-type" value="Corporate-Box Area" id="option1">
+                    <label for="option-1">Corporate-Box Area</label>
+                    <br>
+                    <input type="radio" name="seat-type" value="Ground Floor" id="option2">
+                    <label for="option-2">Groud Floor</label>
+                    <br>
+                    <input type="radio" name="seat-type" value="VIP" id="option3">
+                    <label for="option-3">VIP</label>
+                    <br>
+                    <br>
+                    <label for="question">Security Question</label>
+                    <select name="question" id="question">
+                        <option value="q1">Who is your favorite player?</option>
+                        <option value="q2">What is your favorite sweet dish?</option>
+                        <option value="q3">Which is your favorite sport?</option>
+                        <option value="q4">Who is your role model?</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="answer">Answer</label>
+                    <input type="text" id="answer">
+                    <br>
+                    <br>
+                    <!--For create a bio-textarea-->
+                    <label for="bio">Your Bio</label>
+                    <br>
+                    <textarea name="Bio" id="Bio" placeholder="About Youtrself..........."></textarea>
+                    <br>
+                    <input type="Submit" value="Submit">
+                </div>
+            </form>
+        </body>
+    </head>
+</html>
